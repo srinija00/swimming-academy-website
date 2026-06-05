@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>certified swim coach</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Raleway:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar d-none d-md-block">
+    <div class="container d-flex justify-content-between align-items-center py-2">
+      <span><i class="bi bi-geo-alt-fill me-1"></i> //address of the academy </address></span>
+      <div class="d-flex gap-3 align-items-center">
+        <span><i class="bi bi-telephone-fill me-1"></i> +91 7702 979 766</span>
+        <div class="social-links ms-2">
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-instagram"></i></a>
+          <a href="#"><i class="bi bi-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+        <div class="brand-icon">
+            <img src="images/logo.png" alt="Academy Logo" style="width:100%; height:100%; object-fit:contain;">
+        </div>
+        <div>
+          <div class="brand-name">certified swim coach</div>
+        </div>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navContent">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#programs">Courses</a></li>
+          <li class="nav-item"><a class="nav-link" href="#certificates">Certificates</a></li>
+          <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+          <li class="nav-item ms-lg-2">
+            <a class="btn btn-enroll" href="#programs">Enroll Now</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="home">
+    <div class="hero-overlay"></div>
+    <div class="hero-waves">
+      <svg viewBox="0 0 1440 120" preserveAspectRatio="none"><path d="M0,60 C360,120 1080,0 1440,60 L1440,120 L0,120 Z" fill="rgba(255,255,255,0.08)"/></svg>
+    </div>
+    <div class="container hero-content">
+      <div class="row align-items-center min-vh-85">
+        <div class="col-lg-6 hero-text">
+          <div class="hero-badge"><i class="bi bi-award-fill me-2"></i>Safe. Fun. Professional.</div>
+          <h1 class="hero-title">Building Confident <span class="text-accent">Swimmers</span> for Life</h1>
+          <p class="hero-desc">Expert-led swimming training for kids of all ages. From beginners to champions — we make every child water-safe and confident.</p>
+          <div class="hero-btns d-flex flex-wrap gap-3 mt-4">
+            <a href="#programs" class="btn btn-hero-primary"><i class="bi bi-play-circle me-2"></i>Enroll Now</a>
+            <a href="#contact" class="btn btn-hero-outline"><i class="bi bi-calendar3 me-2"></i>Book Free Trial Class</a>
+          </div>
+        </div>
+        <div class="col-lg-6 d-none d-lg-flex justify-content-end">
+          <div class="hero-img-wrap">
+            <img src="https://images.unsplash.com/photo-1560090995-01632a28895b?w=600&q=80" alt="Happy swimmer child" class="hero-img" />
+            <div class="hero-float-card">
+              <i class="bi bi-people-fill"></i>
+              <div><strong>500+</strong><span>Happy Students</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Stats Strip -->
+    <div class="stats-strip">
+      <div class="container">
+        <div class="row g-0">
+          <div class="col-6 col-md-3 stat-item">
+            <i class="bi bi-patch-check-fill"></i>
+            <div><strong>Certified Trainers</strong><span>Experienced & Certified Swimming Experts</span></div>
+          </div>
+          <div class="col-6 col-md-3 stat-item">
+            <i class="bi bi-shield-check"></i>
+            <div><strong>Safe Environment</strong><span>Hygienic & Well-Maintained Pool Facilities</span></div>
+          </div>
+          <div class="col-6 col-md-3 stat-item">
+            <i class="bi bi-award"></i>
+            <div><strong>Certificates Provided</strong><span>Recognizing Every Student's Achievement</span></div>
+          </div>
+          <div class="col-6 col-md-3 stat-item">
+            <i class="bi bi-bar-chart-fill"></i>
+            <div><strong>All Skill Levels</strong><span>Beginner to Advanced Training Programs</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Training Programs Section -->
+<section class="training-programs section-pad" id="programs">
+  <div class="container">
+
+    <div class="text-center mb-5">
+      <div class="section-tag">Our Training Programs</div>
+      <h2 class="section-title">
+        Learn Swimming with Expert Guidance
+      </h2>
+      <p class="section-subtitle">
+        Structured programs designed for beginners, children, and advanced learners with guaranteed results.
+      </p>
+    </div>
+
+    <div class="row g-4">
+
+      <!-- Poster 1 -->
+      <div class="col-lg-6">
+        <div class="program-poster">
+          <img src="images/poster1.jpg" alt="Learn Swimming in 30 Days" class="img-fluid">
+        </div>
+      </div>
+
+      <!-- Poster 2 -->
+      <div class="col-lg-6">
+        <div class="program-poster">
+          <img src="images/poster2.jpg" alt="Fastest Swim Training in Town" class="img-fluid">
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+  <!-- About Section -->
+  <section class="about-section section-pad" id="about">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-5">
+          <div class="about-img-wrap">
+            <img src="https://images.unsplash.com/photo-1519315901367-f34ff9154487?w=600&q=80" alt="Swimming coach with kids" class="about-img" />
+            <div class="about-badge-count">
+              <span class="count-num">500+</span>
+              <span class="count-label">Happy Students</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <div class="section-tag">About Us</div>
+          <h2 class="section-title">Nurturing Skills.<br><span class="text-blue">Building Confidence.</span></h2>
+          <p class="section-text">At AquaWave Swimming Academy, we are committed to providing world-class swimming training in a safe, friendly and fun environment. Our certified coaches focus on water safety, skill development and overall fitness.</p>
+          <div class="row g-4 mt-2">
+            <div class="col-4">
+              <div class="about-stat">
+                <i class="bi bi-person-badge"></i>
+                <strong>10+</strong>
+                <span>Certified Coaches</span>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="about-stat">
+                <i class="bi bi-star-fill"></i>
+                <strong>5+</strong>
+                <span>Years of Excellence</span>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="about-stat">
+                <i class="bi bi-emoji-smile-fill"></i>
+                <strong>95%</strong>
+                <span>Parent Satisfaction</span>
+              </div>
+            </div>
+          </div>
+          <a href="#programs" class="btn btn-primary-main mt-4">Learn More About Us <i class="bi bi-arrow-right ms-1"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Programs Section -->
+  <section class="programs-section section-pad" id="programs">
+    <div class="container">
+      <div class="text-center mb-5">
+        <div class="section-tag">Our Programs</div>
+        <h2 class="section-title">Swimming Programs <span class="text-blue">for Every Age</span></h2>
+      </div>
+      <div class="row g-4">
+        <div class="col-sm-6 col-xl-3">
+          <div class="program-card">
+            <div class="program-icon"><i class="bi bi-emoji-smile"></i></div>
+            <h4>Beginner Kids Program</h4>
+            <div class="program-age"><i class="bi bi-clock me-1"></i>Age: 4 – 7 Years</div>
+            <p>Water introduction, basic skills and safety training. Fun and engaging lessons for the youngest swimmers.</p>
+            <a href="#contact" class="btn btn-program">View Details <i class="bi bi-arrow-right ms-1"></i></a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-xl-3">
+          <div class="program-card">
+            <div class="program-icon teal"><i class="bi bi-eyeglasses"></i></div>
+            <h4>Intermediate Training</h4>
+            <div class="program-age"><i class="bi bi-clock me-1"></i>Age: 7 – 12 Years</div>
+            <p>Stroke development and endurance building. Perfecting technique for growing swimmers who love the water.</p>
+            <a href="#contact" class="btn btn-program teal">View Details <i class="bi bi-arrow-right ms-1"></i></a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-xl-3">
+          <div class="program-card">
+            <div class="program-icon navy"><i class="bi bi-trophy"></i></div>
+            <h4>Advanced Swimming</h4>
+            <div class="program-age"><i class="bi bi-clock me-1"></i>Age: 12+ Years</div>
+            <p>Advanced techniques, speed & competition prep. Designed for competitive swimmers aiming for the top.</p>
+            <a href="#contact" class="btn btn-program navy">View Details <i class="bi bi-arrow-right ms-1"></i></a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-xl-3">
+          <div class="program-card">
+            <div class="program-icon gold"><i class="bi bi-sun"></i></div>
+            <h4>Summer Camp</h4>
+            <div class="program-age"><i class="bi bi-clock me-1"></i>Age: 5 – 15 Years</div>
+            <p>Fun-filled intensive training during summer. Games, skills, and unforgettable memories at the pool.</p>
+            <a href="#contact" class="btn btn-program gold">View Details <i class="bi bi-arrow-right ms-1"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <!-- Certificates Section -->
+<section class="cert-section section-pad" id="certificates">
+  <div class="container">
+    <div class="row align-items-center g-5">
+
+      <!-- Certificate Image -->
+      <div class="col-lg-6">
+        <div class="cert-card-wrap">
+          <img src="images/certificate.png"
+               alt="Certificate"
+               class="certificate-image">
+        </div>
+      </div>
+
+      <!-- Certificate Text -->
+      <div class="col-lg-6">
+        <div class="section-tag">Certificates</div>
+
+        <h2 class="section-title">
+          Certificates After
+          <span class="text-white">Course Completion</span>
+        </h2>
+
+        <p class="cert-body-text">
+          Every student is awarded a completion certificate recognizing their hard work,
+          progress and achievement in swimming.
+        </p>
+
+        <ul class="cert-features">
+          <li><i class="bi bi-star-fill"></i> Recognizes Achievement</li>
+          <li><i class="bi bi-lightning-fill"></i> Boosts Confidence</li>
+          <li><i class="bi bi-graph-up-arrow"></i> Motivates Progress</li>
+          <li><i class="bi bi-bullseye"></i> Great for Future Goals</li>
+        </ul>
+
+        <a href="#contact" class="btn btn-cert-cta">
+          Learn More <i class="bi bi-arrow-right ms-1"></i>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <!-- Gallery Section -->
+  <section class="gallery-section section-pad" id="gallery">
+    <div class="container">
+      <div class="text-center mb-4">
+        <div class="section-tag">Photo Gallery</div>
+        <h2 class="section-title">Moments of Fun, <span class="text-blue">Learning & Achievement</span></h2>
+      </div>
+      <div class="gallery-filter d-flex flex-wrap justify-content-center gap-2 mb-4">
+        <button class="gal-btn active" data-filter="all">All</button>
+        <button class="gal-btn" data-filter="training">Training Sessions</button>
+        <button class="gal-btn" data-filter="events">Events</button>
+        <button class="gal-btn" data-filter="competitions">Competitions</button>
+        <button class="gal-btn" data-filter="facilities">Facilities</button>
+        <button class="gal-btn" data-filter="achievements">Achievements</button>
+      </div>
+      <div class="row g-3 gallery-grid">
+        <div class="col-6 col-md-4 col-lg-3 gal-item" data-cat="training">
+          <div class="gal-img-wrap"><img src="https://images.unsplash.com/photo-1530549387789-4c1017266635?w=400&q=80" alt="Training session" /><div class="gal-overlay"><i class="bi bi-zoom-in"></i></div></div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 gal-item" data-cat="achievements">
+          <div class="gal-img-wrap"><img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=400&q=80" alt="Achievement" /><div class="gal-overlay"><i class="bi bi-zoom-in"></i></div></div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 gal-item" data-cat="competitions">
+          <div class="gal-img-wrap"><img src="https://images.unsplash.com/photo-1560090995-01632a28895b?w=400&q=80" alt="Competition" /><div class="gal-overlay"><i class="bi bi-zoom-in"></i></div></div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 gal-item" data-cat="facilities">
+          <div class="gal-img-wrap"><img src="https://images.unsplash.com/photo-1575429198097-0414ec08e8cd?w=400&q=80" alt="Pool facility" /><div class="gal-overlay"><i class="bi bi-zoom-in"></i></div></div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 gal-item" data-cat="training">
+          <div class="gal-img-wrap"><img src="https://images.unsplash.com/photo-1519315901367-f34ff9154487?w=400&q=80" alt="Coach training" /><div class="gal-overlay"><i class="bi bi-zoom-in"></i></div></div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 gal-item" data-cat="events">
+          <div class="gal-img-wrap"><img src="https://images.unsplash.com/photo-1600965962102-9d260a71890d?w=400&q=80" alt="Swimming event" /><div class="gal-overlay"><i class="bi bi-zoom-in"></i></div></div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 gal-item" data-cat="competitions">
+          <div class="gal-img-wrap"><img src="https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=400&q=80" alt="Swim competition" /><div class="gal-overlay"><i class="bi bi-zoom-in"></i></div></div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 gal-item" data-cat="facilities">
+          <div class="gal-img-wrap"><img src="https://images.unsplash.com/photo-1555597673-b21d5c935865?w=400&q=80" alt="Pool" /><div class="gal-overlay"><i class="bi bi-zoom-in"></i></div></div>
+        </div>
+      </div>
+      <div class="text-center mt-4">
+        <a href="#" class="btn btn-primary-main">View Full Gallery <i class="bi bi-arrow-right ms-1"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials-section section-pad" id="testimonials">
+    <div class="container">
+      <div class="text-center mb-5">
+        <div class="section-tag">Testimonials</div>
+        <h2 class="section-title">What Parents & <span class="text-blue">Students Say</span></h2>
+      </div>
+      <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row g-4 justify-content-center">
+              <div class="col-md-6 col-lg-3">
+                <div class="testi-card">
+                  <div class="testi-quote"><i class="bi bi-quote"></i></div>
+                  <div class="stars">★★★★★</div>
+                  <p>"AquaWave has given my son the confidence he never had before. The coaches are amazing!"</p>
+                  <div class="testi-author">
+                    <img src="https://i.pravatar.cc/50?img=47" alt="Priya Sharma" />
+                    <div><strong>Priya Sharma</strong><span>Parent</span></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <div class="testi-card">
+                  <div class="testi-quote"><i class="bi bi-quote"></i></div>
+                  <div class="stars">★★★★★</div>
+                  <p>"Excellent training, clean facilities and very supportive staff. Highly recommended!"</p>
+                  <div class="testi-author">
+                    <img src="https://i.pravatar.cc/50?img=11" alt="Rahul Mehta" />
+                    <div><strong>Rahul Mehta</strong><span>Parent</span></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <div class="testi-card">
+                  <div class="testi-quote"><i class="bi bi-quote"></i></div>
+                  <div class="stars">★★★★★</div>
+                  <p>"I love coming to swimming classes! My favorite part is racing with my friends."</p>
+                  <div class="testi-author">
+                    <img src="https://i.pravatar.cc/50?img=33" alt="Vihaan Singh" />
+                    <div><strong>Vihaan Singh</strong><span>Student</span></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <div class="testi-card">
+                  <div class="testi-quote"><i class="bi bi-quote"></i></div>
+                  <div class="stars">★★★★★</div>
+                  <p>"Professional and safe environment. Best decision for my daughter. She loves every session!"</p>
+                  <div class="testi-author">
+                    <img src="https://i.pravatar.cc/50?img=44" alt="Neha Verma" />
+                    <div><strong>Neha Verma</strong><span>Parent</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row g-4 justify-content-center">
+              <div class="col-md-6 col-lg-3">
+                <div class="testi-card">
+                  <div class="testi-quote"><i class="bi bi-quote"></i></div>
+                  <div class="stars">★★★★★</div>
+                  <p>"My daughter transformed from being afraid of water to swimming laps confidently in 3 months!"</p>
+                  <div class="testi-author">
+                    <img src="https://i.pravatar.cc/50?img=32" alt="Meera Joshi" />
+                    <div><strong>Meera Joshi</strong><span>Parent</span></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <div class="testi-card">
+                  <div class="testi-quote"><i class="bi bi-quote"></i></div>
+                  <div class="stars">★★★★★</div>
+                  <p>"The coaches here are incredibly patient and skilled. My son improved dramatically!"</p>
+                  <div class="testi-author">
+                    <img src="https://i.pravatar.cc/50?img=15" alt="Arjun Kapoor" />
+                    <div><strong>Arjun Kapoor</strong><span>Parent</span></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <div class="testi-card">
+                  <div class="testi-quote"><i class="bi bi-quote"></i></div>
+                  <div class="stars">★★★★★</div>
+                  <p>"Best summer camp ever! I made so many friends and learned butterfly stroke!"</p>
+                  <div class="testi-author">
+                    <img src="https://i.pravatar.cc/50?img=25" alt="Riya Sharma" />
+                    <div><strong>Riya Sharma</strong><span>Student</span></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <div class="testi-card">
+                  <div class="testi-quote"><i class="bi bi-quote"></i></div>
+                  <div class="stars">★★★★☆</div>
+                  <p>"Wonderful academy with world-class infrastructure. My twins have been enrolled for 2 years."</p>
+                  <div class="testi-author">
+                    <img src="https://i.pravatar.cc/50?img=60" alt="Sunita Rao" />
+                    <div><strong>Sunita Rao</strong><span>Parent</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-indicators testi-indicators">
+          <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"></button>
+        </div>
+        <button class="carousel-control-prev testi-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+          <i class="bi bi-chevron-left"></i>
+        </button>
+        <button class="carousel-control-next testi-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+          <i class="bi bi-chevron-right"></i>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section class="why-section section-pad" id="why">
+    <div class="container">
+      <div class="text-center mb-5">
+        <div class="section-tag">Why Choose certified swim coach ?</div>
+        <h2 class="section-title">The Best Place for <span class="text-blue">Your Child to Grow</span></h2>
+      </div>
+      <div class="row g-4 justify-content-center">
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="why-card">
+            <div class="why-icon"><i class="bi bi-person-badge-fill"></i></div>
+            <h6>Certified & Experienced Coaches</h6>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="why-card">
+            <div class="why-icon"><i class="bi bi-shield-fill-check"></i></div>
+            <h6>Safety First Always</h6>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="why-card">
+            <div class="why-icon"><i class="bi bi-building"></i></div>
+            <h6>Modern & Clean Facilities</h6>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="why-card">
+            <div class="why-icon"><i class="bi bi-person-heart"></i></div>
+            <h6>Personalized Attention</h6>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="why-card">
+            <div class="why-icon"><i class="bi bi-journal-check"></i></div>
+            <h6>Structured Learning Programs</h6>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="why-card">
+            <div class="why-icon"><i class="bi bi-chat-heart-fill"></i></div>
+            <h6>Parent Friendly Support</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Banner -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="row align-items-center gy-4">
+        <div class="col-md-2 text-center d-none d-md-block">
+          <div class="cta-mascot"><i class="bi bi-person-arms-up"></i></div>
+        </div>
+        <div class="col-md-6">
+          <h2 class="cta-title">Ready to Make a Splash?</h2>
+          <p class="cta-subtitle">Give your child the gift of confidence, fitness and a lifesaving skill.</p>
+        </div>
+        <div class="col-md-4 d-flex gap-3 flex-wrap justify-content-md-end">
+          <a href="#programs" class="btn btn-cta-primary">Enroll Now</a>
+          <a href="#contact" class="btn btn-cta-outline"><i class="bi bi-calendar3 me-1"></i>Book Free Trial</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact-section section-pad" id="contact">
+    <div class="container">
+      <div class="text-center mb-5">
+        <div class="section-tag">Contact Us</div>
+        <h2 class="section-title">Get in <span class="text-blue">Touch With Us</span></h2>
+      </div>
+      <div class="row g-5">
+        <div class="col-lg-5">
+          <div class="contact-info-block">
+            <div class="contact-info-item">
+              <div class="ci-icon"><i class="bi bi-geo-alt-fill"></i></div>
+              <div><strong>Our Location</strong><p>hyd</p></div>
+            </div>
+            <div class="contact-info-item">
+              <div class="ci-icon"><i class="bi bi-telephone-fill"></i></div>
+              <div><strong>Phone Number</strong><p>+91 7702 979 766</p></div>
+            </div>
+            <div class="contact-info-item">
+              <div class="ci-icon"><i class="bi bi-envelope-fill"></i></div>
+              <div><strong>Email Address</strong><p>info@certifiedswimcoach.com</p></div>
+            </div>
+            <div class="contact-info-item">
+              <div class="ci-icon"><i class="bi bi-clock-fill"></i></div>
+              <div><strong>Working Hours</strong><p>Mon – Sun: 6:00 AM – 8:00 PM</p></div>
+            </div>
+            <div class="contact-social mt-3">
+              <a href="#"><i class="bi bi-facebook"></i></a>
+              <a href="#"><i class="bi bi-instagram"></i></a>
+              <a href="#"><i class="bi bi-youtube"></i></a>
+              <a href="#"><i class="bi bi-twitter-x"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <div class="contact-form-wrap">
+            <form id="contactForm" novalidate>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label class="form-label">Parent / Student Name</label>
+                  <input type="text" class="form-control custom-input" placeholder="Your Full Name" required />
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label">Phone Number</label>
+                  <input type="tel" class="form-control custom-input" placeholder="+91 XXXXX XXXXX" required />
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label">Email Address</label>
+                  <input type="email" class="form-control custom-input" placeholder="your@email.com" required />
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label">Child's Age</label>
+                  <select class="form-control custom-input">
+                    <option value="">Select Age Group</option>
+                    <option>4–7 Years (Beginner Kids)</option>
+                    <option>7–12 Years (Intermediate)</option>
+                    <option>12+ Years (Advanced)</option>
+                    <option>5–15 Years (Summer Camp)</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <label class="form-label">Program Interested In</label>
+                  <select class="form-control custom-input">
+                    <option value="">Select Program</option>
+                    <option>Beginner Kids Program</option>
+                    <option>Intermediate Training</option>
+                    <option>Advanced Swimming</option>
+                    <option>Summer Camp</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <label class="form-label">Message</label>
+                  <textarea class="form-control custom-input" rows="4" placeholder="Tell us about your requirements..."></textarea>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-submit w-100">Send Message <i class="bi bi-send ms-2"></i></button>
+                </div>
+              </div>
+            </form>
+            <div id="formSuccess" class="form-success d-none">
+              <i class="bi bi-check-circle-fill"></i>
+              <p>Thank you! We'll contact you within 24 hours.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="container">
+      <div class="row g-4 py-5">
+        <div class="col-lg-3 col-md-6">
+          <div class="footer-brand d-flex align-items-center gap-2 mb-3">
+            <div class="brand-icon sm"><i class="bi bi-water"></i></div>
+            <div>
+              <div class="brand-name sm">certified swim coach</div>
+            </div>
+          </div>
+          <p class="footer-desc">Building confident swimmers through expert training, safety and fun. Join our family today.</p>
+          <div class="footer-social">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 col-6">
+          <h6 class="footer-heading">Quick Links</h6>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#programs">Courses</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 col-6">
+          <h6 class="footer-heading">Programs</h6>
+          <ul class="footer-links">
+            <li><a href="#programs">Beginner Kids Program</a></li>
+            <li><a href="#programs">Intermediate Training</a></li>
+            <li><a href="#programs">Advanced Swimming</a></li>
+            <li><a href="#programs">Summer Camp</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h6 class="footer-heading">Contact Us</h6>
+          <ul class="footer-contact-list">
+            <li><i class="bi bi-geo-alt-fill"></i> hyd</li>
+            <li><i class="bi bi-telephone-fill"></i>+91 7702 979 766</li>
+            <li><i class="bi bi-envelope-fill"></i> info@certifiedswimcoach.com</li>
+            <li><i class="bi bi-clock-fill"></i> Mon – Sun: 6:00 AM – 8:00 PM</li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h6 class="footer-heading">Newsletter</h6>
+          <p class="footer-desc">Stay updated with our latest events and offers.</p>
+          <div class="newsletter-form">
+            <input type="email" placeholder="Your email address" />
+            <button class="btn-newsletter"><i class="bi bi-send-fill"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2024 AquaWave Swimming Academy. All Rights Reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <span>|</span>
+          <a href="#">Terms & Conditions</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop"><i class="bi bi-arrow-up"></i></button>
+
+  <!-- Lightbox Modal -->
+  <div class="modal fade" id="galleryModal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content bg-dark border-0">
+        <div class="modal-body p-0 text-center">
+          <button type="button" class="btn-close btn-close-white position-absolute top-0 end-0 m-3 z-3" data-bs-dismiss="modal"></button>
+          <img id="modalImg" src="" alt="" class="img-fluid rounded" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
