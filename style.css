@@ -1,5 +1,5 @@
 /* ===========================
-   AquaWave Swimming Academy
+   certified swim coach
    style.css
 =========================== */
 
@@ -419,4 +419,267 @@ a { text-decoration: none; }
   .about-img { height: 300px; }
   .about-badge-count { padding: 12px 16px; }
   .count-num { font-size: 1.4rem; }
+}
+/* Floating Apply Now Button */
+.apply-now-btn{
+    position: fixed;
+    right: 20px;
+    bottom: 30px;
+    background: #ff6b00;
+    color: white;
+    padding: 14px 24px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+    z-index: 9999;
+    transition: all 0.3s ease;
+}
+
+.apply-now-btn:hover{
+    background: #e65c00;
+    color: white;
+    transform: translateY(-3px);
+}
+/* Coach Section */
+
+.coach-team-section{
+    background:#f8fbff;
+}
+
+.coach-subtitle{
+    color:#666;
+    margin-top:15px;
+    font-size:18px;
+}
+
+.coach-card{
+    background:#fff;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 10px 30px rgba(0,0,0,0.08);
+    transition:0.3s;
+    height:100%;
+}
+
+.coach-card:hover{
+    transform:translateY(-8px);
+}
+
+.coach-card-img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+
+.coach-overlay{
+    background:linear-gradient(135deg,#0077ff,#00c6ff);
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+
+.coach-overlay h3{
+    margin:0;
+    font-size:24px;
+    font-weight:800;
+}
+
+.coach-overlay p{
+    margin:0;
+    opacity:0.9;
+}
+
+.coach-content{
+    padding:20px;
+}
+
+.coach-content ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+.coach-content li{
+    padding:8px 0;
+    font-weight:600;
+    color:#444;
+}
+.location-section{
+    background:#f8fbff;
+}
+
+.map-container{
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 10px 30px rgba(0,0,0,0.1);
+}
+/* ================= PROGRAMS SECTION ================= */
+
+.program-card{
+    background:#fff;
+    border-radius:24px;
+    overflow:hidden;
+    box-shadow:0 12px 35px rgba(0,0,0,0.08);
+    transition:0.3s ease;
+    display:flex;
+    flex-direction:column;
+    height:100%;
+    border:1px solid #e6eefc;
+}
+
+.program-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 20px 45px rgba(0,119,255,0.15);
+}
+
+.program-img{
+    width:100%;
+    height:240px;
+    object-fit:cover;
+    display:block;
+}
+
+.program-content{
+    padding:28px;
+    display:flex;
+    flex-direction:column;
+    flex:1;
+}
+
+.program-content h3{
+    font-size:34px;
+    font-weight:900;
+    color:#0a2a6e;
+    text-align:center;
+    margin-bottom:12px;
+    min-height:82px;
+}
+
+.sessions{
+    text-align:center;
+    color:#6b7280;
+    font-size:18px;
+    margin-bottom:20px;
+}
+
+.price{
+    text-align:center;
+    color:#0088cc;
+    font-size:44px;
+    font-weight:900;
+    margin-bottom:25px;
+}
+
+.price span{
+    font-size:22px;
+    color:#777;
+}
+
+.program-content ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+    flex-grow:1;
+}
+
+.program-content ul li{
+    padding:10px 0;
+    font-size:18px;
+    color:#374151;
+    display:flex;
+    align-items:flex-start;
+    gap:10px;
+}
+
+.program-content ul li i{
+    color:#00b894;
+    margin-top:4px;
+}
+
+.btn-program{
+    width:100%;
+    margin-top:25px;
+    background:linear-gradient(135deg,#0077ff,#00a6ff);
+    color:#fff;
+    border-radius:50px;
+    padding:15px;
+    font-size:18px;
+    font-weight:800;
+    border:none;
+    text-align:center;
+    transition:0.3s ease;
+}
+
+.btn-program:hover{
+    transform:translateY(-3px);
+    color:white;
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+    .program-img{
+        height:200px;
+    }
+
+    .program-content h3{
+        font-size:28px;
+        min-height:auto;
+    }
+
+    .price{
+        font-size:36px;
+    }
+}
+/* Final CTA Section */
+.final-cta-section{
+    background: linear-gradient(135deg,#0d6efd,#00b4d8);
+    color:#fff;
+    padding:80px 0;
+}
+
+.final-cta-section .section-title{
+    color:#fff;
+    font-weight:800;
+    margin-bottom:20px;
+}
+
+.final-cta-section p{
+    max-width:700px;
+    margin:0 auto 30px;
+    font-size:1.1rem;
+    opacity:0.95;
+}
+
+.final-cta-section .btn{
+    padding:14px 32px;
+    border-radius:50px;
+    font-weight:700;
+    transition:0.3s ease;
+}
+
+.final-cta-section .btn-primary{
+    background:#fff;
+    color:#0d6efd;
+    border:none;
+}
+
+.final-cta-section .btn-primary:hover{
+    transform:translateY(-3px);
+}
+
+.final-cta-section .btn-success{
+    background:#25D366;
+    border:none;
+}
+
+.final-cta-section .btn-success:hover{
+    transform:translateY(-3px);
+}
+
+.final-cta-section .bi-whatsapp{
+    margin-right:8px;
 }

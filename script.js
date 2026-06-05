@@ -1,5 +1,5 @@
 /* ===========================
-   AquaWave Swimming Academy
+   certified swim coach
    script.js
 =========================== */
 
